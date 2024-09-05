@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e2676f3-be97-4521-87ad-a2011bc415a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ConstructionXpert-Services-Microservices-Part-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/gateway-service/src/main/java/com/gateway/filter/JwtAuthenticationGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/gateway-service/src/main/java/com/gateway/filter/RouteValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/gateway-service/src/main/java/com/gateway/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/resource-service/src/main/java/com/resource/feign/TaskClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/task-service/src/main/java/com/task/feign/ProjectClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/configs/ApplicationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/configs/DataInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/configs/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/configs/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/configs/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/dto/AdminDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/dto/CustomerDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/dto/LoginUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/enums/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/java/com/user/util/UserDetailsServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/main/resources/db/migration/V1__create_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConstructionXpert/user-service/src/test/java/com/user/UserServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2lcLRsXXOUXB9Z29PViFsJnLwq7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.GatewayServiceApplication.executor": "Run",
+    "Spring Boot.ProjectServiceApplication.executor": "Run",
+    "Spring Boot.ResourceServiceApplication.executor": "Run",
+    "Spring Boot.TaskServiceApplication.executor": "Run",
+    "Spring Boot.UserServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/PCPACK/OneDrive/Desktop/ConstructionXpert-Services-Microservices-Part-2/ConstructionXpert/user-service/src/main/java/com/user",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PCPACK\OneDrive\Desktop\ConstructionXpert-Services-Microservices-Part-2\ConstructionXpert\user-service\src\main\java\com\user" />
+      <recent name="C:\Users\PCPACK\OneDrive\Desktop\ConstructionXpert-Services-Microservices-Part-2\ConstructionXpert\user-service\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PCPACK\OneDrive\Desktop\ConstructionXpert-Services-Microservices-Part-2\ConstructionXpert\user-service\src\main\java\com\user" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ResourceServiceApplication">
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.constructionxpert.eureka.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="project-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.ProjectServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="resource-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.resource.ResourceServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.task.TaskServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.UserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.ProjectServiceApplication" />
+      <item itemvalue="Spring Boot.TaskServiceApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.ResourceServiceApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e2676f3-be97-4521-87ad-a2011bc415a8" name="Changes" comment="" />
+      <created>1725474418322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725474418322</updated>
+      <workItem from="1725474418632" duration="17334000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.tool.schema.spi.SchemaManagementException" package="org.hibernate.tool.schema.spi" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
