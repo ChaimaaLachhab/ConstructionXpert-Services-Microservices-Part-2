@@ -33,6 +33,10 @@ public class JwtService {
         return claimsResolver.apply(claims);
     }
 
+    public long getExpirationTime() {
+        return jwtExpiration;
+    }
+
     public String generateToken(UserDetails userDetails, Role role) {
         return generateToken(new HashMap<>(), userDetails, role);
     }
@@ -40,10 +44,6 @@ public class JwtService {
     public String generateToken(Map<String, Object> extraClaims, UserDetails userDetails, Role role) {
         extraClaims.put("role", role);
         return buildToken(extraClaims, userDetails, jwtExpiration);
-    }
-
-    public long getExpirationTime() {
-        return jwtExpiration;
     }
 
     private String buildToken(
